@@ -60,8 +60,9 @@ body {
 .site-footer {
     flex: 0 0 auto;
     background-color: rgb(101, 155, 255);
-    color: #2b2e30;
+    color: #f0f0f0;
     padding: 2em;
+    text-align: center;
 }
 
 .site-footer a {
