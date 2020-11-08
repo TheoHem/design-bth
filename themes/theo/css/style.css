@@ -26,6 +26,17 @@ body {
     color: white;
 }
 
+.logo {
+    float: right;
+}
+
+.logo img {
+    max-width: 150px;
+    border-radius: 80px;
+    border: solid white 2px;
+    margin: 5px;
+}
+
 /* Main */
 
 .main {
