@@ -12,8 +12,7 @@ Jag har relativ nyligen börjat programmera med avsikt att kunna använda och sk
 
 När det kommer till hobbies har jag alltid hållt på med cykling i någon form och har på senare tid börjad gå mer och mer till gymmet. Utöver detta spelar jag gärna tv-spel, läser böcker eller ser på film.
 
-<img class="homeimg" src="https://gnadoemagazine.com/wp-content/uploads/2020/06/c7a39f1c8da575307d9cfd23c55811e03d9b7f76-e1593423898946.jpeg" alt="Hide the pain Harold">
-
-Vi hörs!<br>
+<br>
 /Theo 
-
+<br><br>
+<img src="assets\img\katla.jpg" alt="Katladraken">

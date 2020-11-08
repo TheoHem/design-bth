@@ -1,8 +1,8 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/htp-harold.jpeg
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/TheoHem/design.git
+      url: https://github.com/TheoHem/design-bth
       icon: github
 ---
