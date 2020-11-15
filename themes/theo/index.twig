@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" href="{{ theme_url }}/../shared/img/favicon.ico">
+    <link rel="icon" href="{{ theme_url }}/../shared/img/poopicon.png">
     <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 
     {% if meta.description %}
@@ -17,7 +17,7 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />
+
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
@@ -53,13 +53,25 @@
             {{ content }}
         </div>
     </div>
+
     
     <footer class="site-footer">
+        <div class="icons">
+            <p>
+                <b>Icons from Font Awsome</b>
+            </p>
+            <i class="fas fa-smile"></i>
+            <i class="fas fa-smile-wink"></i>
+            <i class="fas fa-smile-beam"></i>
+            <i class="fas fa-poo"></i>
+            <i class="far fa-grin-squint-tears"></i>
+        </div>
+        
         <div class="social">
             <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
             {% for social in pages["_meta"].meta.social %}
                 <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                    <i class="fa fa-{{ social.icon }}" aria-hidden="true"></i>
+                    <i class="{{ social.icon }}" aria-hidden="true"></i>
                     <span class="sr-only">{{ social.title }}</span>
                 </a>
             {% endfor %}
