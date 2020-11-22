@@ -1,0 +1,76 @@
+@import '../../shared/scss/base';
+
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import 'report';
+@import 'kmom';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+%color-white {
+    color: rgb(255, 255, 255);
+}
+
+/* Header */
+
+.site-header {
+    flex: 0 0 auto;
+    background-color: $base-color;
+    color: #2b2e30;
+    padding: 0 2em;
+
+    a,
+    a:visited {
+        @extend %color-white;
+    }
+}
+
+.logo {
+    float: right;
+
+    img {
+        max-width: 150px;
+        border-radius: 80px;
+        border: solid rgb(255, 255, 255) 2px;
+        margin: 5px;
+    }
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+
+    img {
+        border: $img-border;
+        border-radius: 10px;
+        width: 100%;
+        max-width: 600px;
+    }
+}
+
+/* Footer */
+
+.site-footer {
+    flex: 0 0 auto;
+    background-color: $base-color;
+    color: #f0f0f0;
+    padding: 2em;
+    text-align: center;
+
+    a {
+        color: #f0f0f0;
+    }
+}
+
+.social {
+    float: right;
+}
+
+.icons {
+    float: left;
+}
