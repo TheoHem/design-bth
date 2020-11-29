@@ -29,7 +29,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <div class="top"><h3>Kmom 3</h3></div>
-    <div class="text"><p></p></div>
+    <div class="text"><p>Att jobba med dessa...</p></div>
     <div class="link">
         <a href="report/kmom03" role="button">
         <i class="fas fa-chevron-circle-right"></i>
@@ -39,7 +39,7 @@ Redovisningssida för design
 
 <div class="kmom-box">
     <div class="top"><h3>Kmom 4</h3></div>
-    <div class="text"><p></p></div>
+    <div class="text"><p>Generellt tycker jag att...</p></div>
     <div class="link">
         <a href="report/kmom04" role="button">
         <i class="fas fa-chevron-circle-right"></i>

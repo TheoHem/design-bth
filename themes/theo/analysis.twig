@@ -52,8 +52,17 @@
             </ul>
         </div>
     </header>
-    <div class="main" ="main">
-        <div class="landingpage">
+    <div class="main" id="main" role="main">
+        <div class="kmom-container" id="kmom-container">
+                <div class="side" id="side">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul>
+                        <a href="01_colors">01 - Colors</a><br>
+                        <a href="02_load">02 - Load</a><br>
+                        <a href="03_design_principles">03 - Design principles</a><br>
+                    </ul>
+            </div>
+            <span style="font-size:30px;cursor:pointer" class="openbtn" id="openbtn" onclick="openNav()">&#9776;</span>
             {{ content }}
         </div>
     </div>

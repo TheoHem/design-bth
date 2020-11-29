@@ -21,7 +21,11 @@
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
-    <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% if config.session.theme == "dark" %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.css" type="text/css" />
+    {% else %}
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
+    {% endif %}
     <link rel="stylesheet" href="{{ theme_url }}/css/nav.css" type="text/css" />
 </head>
 
@@ -49,8 +53,9 @@
         </div>
     </header>
     <div class="main" id="main" role="main">
-        <div class="kmom-container">
-                <div class="side">
+        <div class="kmom-container" id="kmom-container">
+                <div class="side" id="side">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <ul>
                         <a href="kmom01">Kmom 1</a><br>
                         <a href="kmom02">Kmom 2</a><br>
@@ -61,6 +66,7 @@
                         <a href="kmom10">Projekt</a><br>
                     </ul>
             </div>
+            <span style="font-size:30px;cursor:pointer" class="openbtn" id="openbtn" onclick="openNav()">&#9776;</span>
             {{ content }}
         </div>
     </div>

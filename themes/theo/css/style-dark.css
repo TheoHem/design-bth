@@ -6690,8 +6690,7 @@ readers do not read off random characters that represent icons */
 /* Header */
 .site-header {
   flex: 0 0 auto;
-  background-color: #659bff;
-  color: #2b2e30;
+  background-color: #2b2e30;
   padding: 0 2em;
 }
 .logo {
@@ -6715,6 +6714,12 @@ readers do not read off random characters that represent icons */
   width: 100%;
   max-width: 600px;
 }
+.main a {
+  color: #6282ac;
+}
+.main a:visited {
+  color: #6282ac;
+}
 
 .cwheel img {
   max-width: 200px;
@@ -6737,7 +6742,7 @@ ol {
 /* Footer */
 .site-footer {
   flex: 0 0 auto;
-  background-color: #659bff;
+  background-color: #2b2e30;
   color: #f0f0f0;
   padding: 2em;
   text-align: center;
@@ -6752,4 +6757,27 @@ ol {
 
 .icons {
   float: left;
+}
+
+.main {
+  background-color: #444444;
+  color: #f0f0f0;
+}
+
+.side a:link {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.side a:visited {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.kmom-box .text {
+  color: #f0f0f0;
+}
+
+.kmom-box {
+  background-color: #838383;
 }

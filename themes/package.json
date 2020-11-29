@@ -6,8 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
+    "watch": "sass theo/scss/style.scss:theo/css/style.css theo/scss/style-dark.scss:theo/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass theo/scss/style.scss:theo/css/style.min.css theo/scss/style-dark.scss:theo/css/style-dark.min.css --no-source-map --watch --style compressed",
     "style": "sass theo/scss/style.scss theo/css/style.css --no-source-map",
-    "style-min": "sass theo/scss/style.scss theo/css/style.min.css --no-source-map --style compressed"
+    "style-min": "sass theo/scss/style.scss theo/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass theo/scss/style-dark.scss theo/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass theo/scss/style-dark.scss theo/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass theo/scss/style.scss theo/css/style.css --no-source-map",
+    "style-light-min": "sass theo/scss/style.scss theo/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

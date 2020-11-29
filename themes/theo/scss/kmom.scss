@@ -1,7 +1,8 @@
 .kmom-container {
     display: grid;
-    grid-template-rows: 100%;
+    grid-template-rows: 50px 100%;
     grid-template-columns: 20% 80%;
+    max-width: 1200px;
 }
 
 .kmom-container h1 {
@@ -18,7 +19,7 @@
     grid-column: 1 / 2;
     grid-row: 1 / span 2;
     margin-top: 50px;
-    margin-left: 30px;
+    /*margin-left: 15px;*/
 }
 
 .side a:link {
@@ -45,6 +46,17 @@
     margin: 10px;
 }
 
+.closebtn {
+    margin-left: 200px;
+    float: right;
+    display: none;
+}
+
+.openbtn {
+    display: none;
+}
+
+
 @media screen and (max-width: 800px) {
     .side {
         margin-left: 0;
@@ -53,7 +65,27 @@
     
     .kmom-container {
         display: grid;
-        grid-template-rows: 100%;
+        grid-template-rows: 50px 100px 100%;
         grid-template-columns: 0% 100%;
     }
+
+    .closebtn {
+        display: inline;
+    }
+
+    .openbtn {
+        display: inline;
+        grid-row: 1 / 3;
+    }
+
+    .kmom-container h1 {
+        grid-column: 2 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .kmom-container .report-text {
+        grid-column: 2 / 2;
+        grid-row: 3 / 3;
+    }
 }
+

@@ -71,6 +71,21 @@ function main()
 
     window.addEventListener('resize', onResizeEvent);
     onResizeEvent();
+
+}
+
+function openNav() {
+    document.getElementById("kmom-container").style.gridTemplateRows= "200px 100px 100%";
+    document.getElementById("side").style.gridColumn= "1 / span 2";
+    document.getElementById("side").style.display = "inline";
+    document.getElementById("openbtn").style.display = "none";
+}
+
+function closeNav() {
+    document.getElementById("side").style.display = "none";
+    document.getElementById("kmom-container").style.gridTemplateRows= "50px 100%";
+    document.getElementById("openbtn").style.display = "inline";
+    document.getElementById("side").style.gridColumn= "1 / 2";
 }
 
 main();
