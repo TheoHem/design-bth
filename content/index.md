@@ -15,4 +15,5 @@ När det kommer till hobbies har jag alltid hållt på med cykling i någon form
 <br>
 /Theo 
 <br><br>
-<img src="assets\img\katla.jpg" alt="Katladraken">
+
+![Katla](image/katla.jpg)

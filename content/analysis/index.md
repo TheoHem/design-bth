@@ -21,7 +21,7 @@ Redovisningssida för design
     <div class="top"><h3>02 - Load</h3></div>
     <div class="text"><p></p></div>
     <div class="link">
-        <a href="report/kmom02" role="button">
+        <a href="analysis/02_load" role="button">
         <i class="fas fa-chevron-circle-right"></i>
         </a>
     </div>
@@ -31,7 +31,7 @@ Redovisningssida för design
     <div class="top"><h3>03 - Design principles</h3></div>
     <div class="text"><p></p></div>
     <div class="link">
-        <a href="report/kmom03" role="button">
+        <a href="analysis/03_design_principles" role="button">
         <i class="fas fa-chevron-circle-right"></i>
         </a>
     </div>

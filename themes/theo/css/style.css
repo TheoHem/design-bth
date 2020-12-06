@@ -6564,6 +6564,49 @@ readers do not read off random characters that represent icons */
   grid-column: span 8;
 }
 
+.landingpage picture {
+  grid-row: span 4;
+  grid-column: span 4;
+  width: 100%;
+  height: auto;
+}
+
+.landingpage img {
+  grid-row: span 4;
+  grid-column: span 4;
+  width: 100%;
+  height: auto;
+}
+
+.landingpage a {
+  grid-row: span 4;
+  grid-column: span 4;
+  width: 100%;
+  height: auto;
+}
+
+.embed-container {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  width: 500px;
+}
+
 @media screen and (max-width: 960px) {
   .landingpage {
     grid-template-rows: 100px 250px 250px 250px 250px 250px 250px 250px;
@@ -6572,6 +6615,27 @@ readers do not read off random characters that represent icons */
     grid-gap: 15px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas: "top-left" "top-right" "bottom";
+  }
+
+  .landingpage a {
+    width: 100%;
+    grid-column: span 4;
+    grid-row: span 4;
+    height: 250px;
+    overflow: hidden;
+  }
+
+  .landingpage img {
+    width: 100%;
+    grid-column: span 3;
+  }
+
+  .landingpage picture {
+    width: 100%;
+    grid-column: span 4;
+    grid-row: span 4;
+    height: 250px;
+    overflow: hidden;
   }
 
   .kmom-box {
