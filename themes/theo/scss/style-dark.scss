@@ -52,11 +52,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     }
 
     a {
-        color: #6282ac;
+        color: rgb(255, 255, 255);
     }
 
     a:visited {
-        color: #6282ac;
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -119,6 +119,24 @@ ol {
     color: #f0f0f0;
 }
 
+link i {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.link a:visited {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
 .kmom-box {
-    background-color: rgb(131, 131, 131);
+    background-color: rgb(109, 109, 109);
+}
+
+.kmom-box .link i {
+    color: rgb(255, 255, 255);
+}
+
+.kmom-box .text {
+    color: rgb(255, 255, 255);
 }

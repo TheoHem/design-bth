@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -31,15 +31,14 @@
 
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
-        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+        <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
         {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
-                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-                    </a>
+                <!--<div class="logo" aria-hidden="true">-->
+                <div class="logo">
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                 </div>
         {% endif %}
         <div id="nav" role="navigation" tabindex="-1">
@@ -56,15 +55,13 @@
         <div class="kmom-container" id="kmom-container">
                 <div class="side" id="side">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <ul>
-                        <a href="kmom01">Kmom 1</a><br>
-                        <a href="kmom02">Kmom 2</a><br>
-                        <a href="kmom03">Kmom 3</a><br>
-                        <a href="kmom04">Kmom 4</a><br>
-                        <a href="kmom05">kmom 5</a><br>
-                        <a href="kmom06">Kmom 6</a><br>
-                        <a href="kmom10">Projekt</a><br>
-                    </ul>
+                    <a href="kmom01">Kmom 1</a><br>
+                    <a href="kmom02">Kmom 2</a><br>
+                    <a href="kmom03">Kmom 3</a><br>
+                    <a href="kmom04">Kmom 4</a><br>
+                    <a href="kmom05">kmom 5</a><br>
+                    <a href="kmom06">Kmom 6</a><br>
+                    <a href="kmom10">Projekt</a><br>
             </div>
             <span style="font-size:30px;cursor:pointer" class="openbtn" id="openbtn" onclick="openNav()">&#9776;</span>
             {{ content }}

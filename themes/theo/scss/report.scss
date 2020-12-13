@@ -31,7 +31,7 @@
     box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.56);
 }
 
-.kmom-box .top h3 {
+.kmom-box .top h2 {
     color: rgb(255, 255, 255);
     font-size: 18px;
     margin-top: 15px;
@@ -47,7 +47,7 @@
 }
 
 .kmom-box .text {
-    color: rgb(119, 119, 119);
+    color: rgb(0, 0, 0);
     margin: 15px;
     grid-column: span 4;
     overflow: hidden;
@@ -58,9 +58,10 @@
     grid-row: 4 / 4;
 }
 
-.kmom-box .link i {
+.kmom-box .link {
     font-size: 40px;
-    color: rgb(112, 154, 182);
+    //color: rgb(112, 154, 182);
+    color: rgb(0, 0, 0);
 }
     
 .kmom-box.project {
@@ -172,5 +173,4 @@ iframe {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(4, 1fr);
     }
-    
 }
